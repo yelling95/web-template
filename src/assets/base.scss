@@ -1,0 +1,37 @@
+:root {
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.flex_inline {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+}
+.flex_column {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+.flex_grow {
+  flex-grow: 1;
+  flex: 1;
+}
+.center {
+  align-items: center;
+  justify-content: center;
+}
+.flex_vertical_center {
+  align-items: center;
+}
+.flex_horizontal_center {
+  justify-content: center;
+}
+.flex_grow {
+  flex-grow: 1;
+  flex: 1;
+}
+// flex grow 에서 elipse 처리하기위해
+.width_0 {
+  width: 0;
+}
